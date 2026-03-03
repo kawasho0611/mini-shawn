@@ -1,0 +1,19 @@
+name: 🐛 修正報告
+description: 誤字脱字やリンク切れなどの修正報告
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 問題の内容
+      description: どのページにどんな問題がありますか？
+      placeholder: "例: 選考フローページの3段落目に誤字があります"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 該当ページのURL
+      placeholder: "https://your-org.github.io/hiring-docs/process/flow/"
+  - type: textarea
+    attributes:
+      label: 修正案（任意）
+      description: 修正案があれば記載してください

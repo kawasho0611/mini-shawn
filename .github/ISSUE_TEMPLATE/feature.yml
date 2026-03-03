@@ -1,0 +1,15 @@
+name: 💡 コンテンツ提案
+description: 新しいコンテンツやセクションの提案
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: 提案内容
+      description: どんなコンテンツを追加・改善したいですか？
+      placeholder: "例: リモートワークの制度について詳しいページが欲しい"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 背景・理由
+      description: なぜこのコンテンツが必要だと思いますか？

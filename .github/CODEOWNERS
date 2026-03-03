@@ -1,0 +1,8 @@
+# デフォルトのレビュアー（すべてのファイル）
+* @your-org/docs-maintainers
+
+# 採用プロセス関連はHRチームもレビュー
+docs/process/ @your-org/hr-team @your-org/docs-maintainers
+
+# エンジニアリング関連はエンジニアリングチームもレビュー
+docs/engineering/ @your-org/engineering-team @your-org/docs-maintainers

@@ -1,0 +1,74 @@
+site_name: "採用・組織ドキュメント"
+site_description: "私たちの採用プロセス、カルチャー、組織づくりについてのオープンドキュメント"
+site_url: "https://your-org.github.io/hiring-docs/"
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: "https://github.com/your-org/hiring-docs"
+repo_name: "your-org/hiring-docs"
+edit_uri: "edit/main/docs/"
+
+nav:
+  - ホーム: index.md
+  - カルチャー:
+      - 私たちのミッション: culture/mission.md
+      - バリュー: culture/values.md
+      - 働き方: culture/workstyle.md
+  - 採用プロセス:
+      - 選考フロー: process/flow.md
+      - 面接ガイド: process/interview-guide.md
+      - よくある質問: process/faq.md
+  - エンジニアリング:
+      - 技術スタック: engineering/tech-stack.md
+      - 開発文化: engineering/dev-culture.md
+
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org
+  generator: false
