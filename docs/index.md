@@ -15,8 +15,8 @@
 ## 📬 フィードバック
 
 このドキュメントに対するフィードバックは大歓迎です。  
-[GitHub Issues](https://github.com/your-org/hiring-docs/issues) からお気軽にどうぞ。
+[GitHub Issues](https://github.com/kawasho0611/mini-shawn/issues) からお気軽にどうぞ。
 
 !!! tip "このドキュメントはオープンソースです"
     誤りの指摘や改善提案は、Pull Requestで受け付けています。  
-    詳しくは [コントリビューションガイド](https://github.com/your-org/hiring-docs/blob/main/CONTRIBUTING.md) をご覧ください。
+    詳しくは [コントリビューションガイド](https://github.com/kawasho0611/mini-shawn/blob/main/CONTRIBUTING.md) をご覧ください。
