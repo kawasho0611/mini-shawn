@@ -18,9 +18,9 @@
 
 ```bash
 # リポジトリをフォーク（GitHub上で）
-git clone https://github.com/YOUR_USERNAME/hiring-docs.git
-cd hiring-docs
-git remote add upstream https://github.com/your-org/hiring-docs.git
+git clone https://github.com/YOUR_USERNAME/mini-shawn.git
+cd mini-shawn
+git remote add upstream https://github.com/kawasho0611/mini-shawn.git
 ```
 
 ### 2. ブランチを作成

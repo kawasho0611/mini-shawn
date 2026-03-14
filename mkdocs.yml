@@ -1,6 +1,6 @@
 site_name: "採用・組織ドキュメント"
 site_description: "私たちの採用プロセス、カルチャー、組織づくりについてのオープンドキュメント"
-site_url: "https://your-org.github.io/hiring-docs/"
+site_url: "https://kawasho0611.github.io/mini-shawn/"
 
 theme:
   name: material
@@ -31,8 +31,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_url: "https://github.com/your-org/hiring-docs"
-repo_name: "your-org/hiring-docs"
+repo_url: "https://github.com/kawasho0611/mini-shawn"
+repo_name: "kawasho0611/mini-shawn"
 edit_uri: "edit/main/docs/"
 
 nav:
@@ -70,5 +70,5 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org
+      link: https://github.com/kawasho0611
   generator: false

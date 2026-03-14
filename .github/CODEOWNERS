@@ -1,8 +1,8 @@
 # デフォルトのレビュアー（すべてのファイル）
-* @your-org/docs-maintainers
+* @kawasho0611/docs-maintainers
 
 # 採用プロセス関連はHRチームもレビュー
-docs/process/ @your-org/hr-team @your-org/docs-maintainers
+docs/process/ @kawasho0611/hr-team @kawasho0611/docs-maintainers
 
 # エンジニアリング関連はエンジニアリングチームもレビュー
-docs/engineering/ @your-org/engineering-team @your-org/docs-maintainers
+docs/engineering/ @kawasho0611/engineering-team @kawasho0611/docs-maintainers

@@ -20,5 +20,5 @@
 ---
 
 !!! tip "その他のご質問"
-    ここに載っていないご質問は、[GitHub Issues](https://github.com/your-org/hiring-docs/issues) からお寄せください。
+    ここに載っていないご質問は、[GitHub Issues](https://github.com/kawasho0611/mini-shawn/issues) からお寄せください。
     回答と合わせてこのページに追加していきます。
